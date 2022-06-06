@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CV19", "CV19\CV19.csproj", "{46900596-E6FF-4C0C-AE6B-C371D885EF7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prikol", "CV19\Prikol.csproj", "{46900596-E6FF-4C0C-AE6B-C371D885EF7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C901E0FC-B624-44EE-AE57-D5F4CDC8AF9A}"
 EndProject
