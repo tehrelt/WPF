@@ -3,9 +3,21 @@ using System.Runtime.CompilerServices;
 
 namespace Prikol.ViewModels.Base
 {
-    internal abstract class ViewModel : INotifyPropertyChanged
+    internal abstract class ViewModel : INotifyPropertyChanged, System.IDisposable
     {
         public event PropertyChangedEventHandler? PropertyChanged;
+
+
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+        private bool _disposed;
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposing || _disposed) return;
+            _disposed = true;
+        }
 
         protected virtual void OnPropertyChanged([CallerMemberName]string propertyName = null)
         {
